@@ -1430,6 +1430,7 @@ blockquot {
 	background-color: #282828;
 	color: #ffffff;
 	border: 2px solid #282828;
+	border-radius: 9px;
 }
 
 .btn--secondary:active,
@@ -1438,6 +1439,8 @@ blockquot {
 	background-color: #0ECFAC;
 	color: #ffffff;
 	border-color: #ffffff;
+	border-radius: 9px;
+
 }
 
 .btn--secondary.btn--inverse:active,
@@ -1446,6 +1449,8 @@ blockquot {
 	background-color: #ffffff;
 	color: #282828;
 	border-color: #ffffff;
+	border-radius: 9px;
+
 }
 
 /* Button White */
@@ -5444,8 +5449,9 @@ a.gallery-more i {
 
 .pricing-panel .pricing--heading {
 	box-shadow: 0 10px 20px rgba(224, 224, 224, 0.4);
-	border-radius: 2px;
-	background-color: #ffffff;
+	border: 2px solid #0ECFAC;
+	border-radius: 9px;
+	background-color: #00000000;
 	padding: 50px 64px;
 	margin-bottom: 30px;
 }
@@ -5467,6 +5473,7 @@ a.gallery-more i {
 	line-height: 1;
 	margin-bottom: 17px;
 	text-transform: capitalize;
+	color: #ffffff;
 }
 
 .pricing-panel .pricing--heading p {
@@ -5484,7 +5491,7 @@ a.gallery-more i {
 }
 
 .pricing-panel .pricing--heading .pricing--desc {
-	color: #000000;
+	color: #ffffff;
 	font-size: 15px;
 	font-weight: 400;
 	line-height: 21px;
@@ -5502,10 +5509,10 @@ a.gallery-more i {
 }
 
 .pricing-active .pricing-panel .pricing--heading {
-	background-image: -moz-linear-gradient(to top, #ffffff 0%, #0ECFAC 100%);
-	background-image: -webkit-linear-gradient(to top,#ffffff 5%, #0ECFAC 95%);
-	background-image: -ms-linear-gradient(to top, #ffffff 5%, #0ECFAC 95%);
-	background-image: linear-gradient(to top, #ffffff 5%, #0ECFAC 95%);
+	background-image: -moz-linear-gradient(to top, #0ECFAC 0%, #0ECFAC 100%);
+	background-image: -webkit-linear-gradient(to top,#0ECFAC 5%, #0ECFAC 95%);
+	background-image: -ms-linear-gradient(to top, #0ECFAC 5%, #0ECFAC 95%);
+	background-image: linear-gradient(to top, #0ECFAC 5%, #0ECFAC 100%);
 	margin-top: -40px;
 	padding-top: 90px;
 }
@@ -7303,9 +7310,8 @@ a.link--styled:hover {
 }
 
 .contact-box {
-	border-radius: 2px;
-	background-color: #ffffff;
 	border-radius: 9px;
+	background-color: #ffffff;
 }
 
 .contat-heading {
@@ -7925,7 +7931,7 @@ footer .widget-instagram .insta-hover i {
     #Footer
 \*------------------------------------*/
 .footer {
-	background-color: #494949;
+	background-color: #282828;
 	padding-top: 0;
 	padding-bottom: 0;
 }
@@ -8118,7 +8124,7 @@ footer .widget-newsletter form {
 }
 
 footer .widget-newsletter .form-control {
-	background-color: transparent;
+	background-color: #ffffff;
 	border: none;
 	color: #474747;
 	font-size: 12px;
@@ -8232,7 +8238,7 @@ footer .widget-links-inline ul li {
 }
 
 .footer--links li a {
-	color: #7f7f7f;
+	color: #0ECFAC;
 	font-size: 13px;
 	font-weight: 400;
 	line-height: 43px;
@@ -8242,7 +8248,7 @@ footer .widget-links-inline ul li {
 }
 
 .footer--links li a:hover {
-	color: #a0d334;
+	color: #0ECFAC;
 }
 
 .footer--links li:last-child a {
@@ -9108,7 +9114,7 @@ footer .widget-newsletter form {
 
 .newsletter .btn--primary:hover,
 .newsletter .btn--secondary:hover {
-	background-color: #ffffff;
+	background-color: #0ECFAC;
 	border-color: #ffffff;
 	color: #0ECFAC;
 }

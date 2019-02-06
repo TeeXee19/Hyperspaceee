@@ -28,7 +28,7 @@
     /* ------------------  LOADING SCREEN ------------------ */
 
     $(window).on("load", function() {
-        $(".preloader").fadeOut(5000);
+        $(".preloader").fadeOut(1000);
         $(".preloader").remove();
     });
 
