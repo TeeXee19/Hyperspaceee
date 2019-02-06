@@ -5285,7 +5285,7 @@ a.gallery-more i {
     #Call To Action
 \*------------------------------------*/
 .cta h3 {
-	font-size: 24px;
+	font-size: 18px;
 	font-weight: 500;
 	line-height: 51px;
 	margin-bottom: 0;
@@ -5301,7 +5301,7 @@ a.gallery-more i {
 }
 
 .cta-1 {
-	padding: 20px 0;
+	padding: 15px 0;
 }
 
 /* Call To Action #2 */
@@ -5361,7 +5361,8 @@ a.gallery-more i {
 
 .cta h3 {
 	text-align: center;
-	margin-bottom: 30px;
+	margin-bottom: 0px;
+	font-size: 14px;
 }
 
 .cta .text-right {
@@ -5369,7 +5370,7 @@ a.gallery-more i {
 }
 
 .cta-2 .download--btns a {
-	margin-bottom: 30px;
+	margin-bottom: 0;
 }
 }
 
@@ -5378,7 +5379,8 @@ a.gallery-more i {
 
 .cta h3 {
 	text-align: center;
-	margin-bottom: 30px;
+	margin-bottom: 0px;
+	font-size: 14px;
 }
 
 .cta .text-right {
