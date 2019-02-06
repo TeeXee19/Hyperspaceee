@@ -1206,7 +1206,7 @@ blockquot {
     #BACKGROUNDS
 \*------------------------------------*/
 .bg-theme {
-	background-color: #607975 !important;
+	background-color: #0ECFAC !important;
 }
 
 .bg-gray {
@@ -1544,16 +1544,16 @@ blockquot {
 }
 
 .btn--bordered.btn--white {
-	color: #494949;
-	border-color: #494949;
+	color: #ffffff;
+	border-color: #ffffff;
 }
 
 .btn--bordered.btn--white:active,
 .btn--bordered.btn--white:focus,
 .btn--bordered.btn--white:hover {
 	color: #0ECFAC;
-	background-color: #494949;
-	border-color: #494949;
+	background-color: #ffffff;
+	border-color: #ffffff;
 }
 
 .btn--white.btn--secondary {
@@ -4800,11 +4800,14 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 	-o-transition: all 300ms linear 0ms;
 	transition: all 300ms linear 0ms;
 	opacity: 0.6;
+	border-radius: 0 0 180px 180px;
 }
 
 .member:hover .member-overlay {
-	height: 62%;
+	height: 50%;
 	opacity: 0.8;
+		border-radius: auto;
+
 }
 
 .member .member-overlay .member-social {
@@ -5293,7 +5296,7 @@ a.gallery-more i {
 	font-weight: 500;
 	line-height: 51px;
 	margin-bottom: 0;
-	color: #000000;
+	color: #ffffff;
 }
 
 .cta p {
