@@ -424,7 +424,7 @@ ul {
 }
 
 section {
-	padding-top: 10px;
+	padding-top: 90px;
 	padding-bottom: 90px;
 	overflow: hidden;
 }
@@ -894,7 +894,7 @@ section {
 @media only screen and (max-width: 767px) {
 
 section {
-	padding-top: 60px;
+	padding-top: 10px;
 	padding-bottom: 60px;
 }
 
@@ -5248,11 +5248,13 @@ a.gallery-more i {
 .featured-2 .feature-card,
  .featured-2 .feature-card:last-of-type {
 	margin-bottom: 30px;
+	padding-top: 10px;
 
 }
 
 .featured-4 .contact-box {
 	margin-top: 0;
+
 }
 }
 
@@ -5262,6 +5264,8 @@ a.gallery-more i {
 .featured-2 .feature-card,
  .featured-2 .feature-card:last-of-type {
 	margin-bottom: 30px;
+		padding-top: 10px;
+
 }
 .featured-4 .contact-box {
 	margin-top: 0px;
@@ -5277,7 +5281,7 @@ a.gallery-more i {
 }
 
 .featured-2 .col-content {
-	padding: 50px;
+	padding: 10px 50px 50px 50px;
 }
 }
 
