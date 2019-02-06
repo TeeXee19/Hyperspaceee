@@ -1206,7 +1206,7 @@ blockquot {
     #BACKGROUNDS
 \*------------------------------------*/
 .bg-theme {
-	background-color: #c4c4c4 !important;
+	background-color: #607975 !important;
 }
 
 .bg-gray {
@@ -5089,6 +5089,7 @@ a.gallery-more i {
 \*------------------------------------*/
 .feature-card {
 	position: relative;
+	left: 0;
 }
 
 .feature-card .feature-card-icon img {
@@ -5233,7 +5234,7 @@ a.gallery-more i {
 }
 
 .featured-left .feature-card-content {
-	padding-left: 74px;
+	padding-left: 10px;
 }
 
 .featured-left .feature-card-icon {
@@ -5261,6 +5262,9 @@ a.gallery-more i {
 .featured-2 .feature-card,
  .featured-2 .feature-card:last-of-type {
 	margin-bottom: 30px;
+}
+.featured-4 .contact-box {
+	margin-top: 0px;
 }
 }
 
