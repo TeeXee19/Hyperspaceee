@@ -424,7 +424,7 @@ ul {
 }
 
 section {
-	padding-top: 90px;
+	padding-top: 40px;
 	padding-bottom: 90px;
 	overflow: hidden;
 }
@@ -5089,7 +5089,6 @@ a.gallery-more i {
 \*------------------------------------*/
 .feature-card {
 	position: relative;
-	left: 0;
 }
 
 .feature-card .feature-card-icon img {
@@ -5249,6 +5248,7 @@ a.gallery-more i {
 .featured-2 .feature-card,
  .featured-2 .feature-card:last-of-type {
 	margin-bottom: 30px;
+
 }
 
 .featured-4 .contact-box {
@@ -5265,6 +5265,7 @@ a.gallery-more i {
 }
 .featured-4 .contact-box {
 	margin-top: 0px;
+	padding-top: 0px;
 }
 }
 
