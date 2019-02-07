@@ -116,7 +116,7 @@ body {
 }
 
 ::selection {
-	background-color: #a0d334;
+	background-color: #0ECFAC;
 	color: #ffffff;
 	text-shadow: none;
 }
@@ -130,18 +130,18 @@ a {
 }
 
 a:hover {
-	color: #82ae26;
+	color: #0ECFAC;
 	text-decoration: none;
 }
 
 a:focus {
-	color: #82ae26;
+	color: #0ECFAC;
 	outline: none;
 	text-decoration: none;
 }
 
 a:active {
-	color: #82ae26;
+	color: #0ECFAC;
 	outline: none;
 	text-decoration: none;
 }
@@ -370,7 +370,7 @@ text-center-sm {
 }
 
 .higlighted-style1 {
-	background-color: #a0d334;
+	background-color: #0ECFAC;
 	color: #fff;
 	padding: 5px 0;
 }
@@ -395,7 +395,7 @@ text-center-sm {
 }
 
 .color-theme {
-	color: #a0d334 !important;
+	color: #0ECFAC !important;
 }
 
 .color-white {
@@ -1248,6 +1248,7 @@ blockquot {
 	background-position: center center;
 	width: 100%;
 	height: 100%;
+	background-color: #000000;
 }
 
 .bg-parallax {
