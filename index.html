@@ -43,7 +43,7 @@
 <header id="navbar-spy" class="header header-1 header-transparent">
 	<nav id="primary-menu" class="navbar navbar-expand-lg navbar-light navbar-bordered">
 		<div class="container">
-			<a class="navbar-brand" href="index-2.html">
+			<a class="navbar-brand" href="index.html">
 				<img class="logo logo-light" src="assets/images/logo/logo.png" alt="Hyperspace Logo"> 
 			</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -233,7 +233,7 @@
                         <div class="feature-card">
                             <div class="feature-card-content">
                                 
-                                <h3 class="feature-card-title">Thinking of Building Something Awesome.</h3>
+                                <h2 class="feature-card-title">Thinking of Building Something Awesome?</h2>
                                 <p class="feature-card-desc">
                                     The <span>Build Actual Stuff Hackathon</span> is a 12-hour Hackathon geared at getting students to learn more by doing and shifting the paradigm of traditional hackathons away from being a competitive driven space to being one where individuals irrespective of their educational background can  come together learn and hack solutions in a welcoming and condusive environment.
                                     <br>  
@@ -304,7 +304,7 @@
 ============================================= -->
 <section id="pricing1" class="pricing pricing-1 bg-overlay bg-overlay-dark2 pt-110 pb-0">
     <div class="bg-section">
-        <img src="assets/images/background/2.jpg" alt="background">
+        <img src="https://lh3.googleusercontent.com/mVtY2FjnlXfKV_ko5_RMlR2Tt8ekmod3gFt1rBih84xjL3UNxtLYLHbzEaDIjDBmexPC2NV2PLqIZXvPRvlpbQnTiQq-u3x5_evedC4Y3qzkqEyyFhUtnTzvUUR4-m0PwqxA5quxWvyx89bCU3Uvdt3PZJst6BfmHT3bZOP4SYeMGrWt5hqjHtHcsOb-HXowIQHOuLjuW_RYbBN1h62ct64VqeUkzmaXee6kDO8j05t3nVBgvXR33hL99tm0kPm411-W2sgBOr8PRX-lSu4urhquWeZuNgB6cRgXnPrcyYGJtPkkMDFkqDBHdV_g7lhoqMvXf0eazOPR-CW56_v4XgtUFKw4HfTBgEZecRGvPVnA7dqzPbDNkRMLaRufK3PuDv_61DU751hfpaEb2PLh-ELxvzrw_YtWUY2ZuXAN6dfycYTXFilHCAsQa80AS9yFFj8IaPK0q35QoP_jHDpJ8ae_LqeHh2aq77azZtGWjZRx_xJQDykFTqsELUjQ53l1UHbazKGPd87fzmiQxfUibj-PJBFdPNUZUo7zQHlXJVRGuXqblv3reZ6vZnbigGjuoqqKEyMCypBIcSOu5e6cgrxbXYrf79EIHMFuIH1_C12CbZbajOOffVfvVx1AaWd6MmoYkxaN3McfeeFPQkvuTulRw0SIFxNewnfLru0uhCgk4NXYu4L1NujzV_myuyDwnElpdzGOSDDZzhML8eYlnF-mYg=w885-h664-no" alt="background">
     </div>
     <div class="container">
         <div class="row clearfix">
@@ -462,7 +462,7 @@
 				<div class="col-12 col-md-6 col-lg-3 footer--widget widget-about">
 					<div class="widget-content">
 						<img class="footer-logo" src="assets/images/logo/logo.png" alt="logo">
-						<p>Grooming students into experts, ready to challenge the ever growing tech-sphere. Finding talents around Africa and making them stars. </p>
+						<p style="color: #969696">Grooming students into experts, ready to challenge the ever growing tech-sphere. Finding talents around Africa and making them stars. </p>
 						<div class="social-icons">
 							<a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
 							<a href="https://twitter.com/HyperspaceAfric" class="twitter"><i class="fa fa-twitter"></i></a>
@@ -522,7 +522,7 @@
 						</form>
 						<div class="subscribe-alert"></div>
 						<div class="clearfix"></div>
-						<p>Get the latest updates and opportunities.</p>
+						<p style="color: #969696">Get the latest updates and opportunities.</p>
  					</div>
 				</div><!-- .col-md-3 end -->
 				<div class="clearfix"></div>
@@ -549,6 +549,8 @@
 
 <div id="back-to-top" class="backtop"><i class="fa fa-long-arrow-up"></i></div>
  </div><!-- #wrapper end -->
+
+
 <!--Modal: modalPush-->
 <div class="modal fade " id="modalPush" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
   aria-hidden="true">
@@ -586,8 +588,9 @@
                     </form>
       <!--Footer-->
       <div class="modal-footer flex-center">
-        <a type="button" class="btn btn-outline-info waves-effect" data-dismiss="modal">Cancel</a> 
-        <a href="" class="btn btn-info">Send Message</a>
+        <a href="" id="modalbtn" class="btn--primary  btn--rounded waves-effect" data-dismiss="modal">Cancel</a> 
+        <a id="modalbtn" class=" btn--primary  btn--rounded" href="">Send Message</a>
+
       </div>
     </div>
     <!--/.Content-->
@@ -610,8 +613,7 @@
     });
 
     $('#exampleModal').on('show.bs.modal', function (event) {
-  var button = $(event.relatedTarget) // Button that triggered the modal
-  var recipient = button.data('whatever') 
+  var recipient = button.data('hello@hyperspace.africa') 
   var modal = $(this)
   modal.find('.modal-title').text('New message to ' + recipient)
   modal.find('.modal-body input').val(recipient)
