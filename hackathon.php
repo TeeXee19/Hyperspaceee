@@ -43,7 +43,7 @@
 <header id="navbar-spy" class="header header-1 header-transparent">
 	<nav id="primary-menu" class="navbar navbar-expand-lg navbar-light navbar-bordered">
 		<div class="container">
-			<a class="navbar-brand" href="index.html">
+			<a class="navbar-brand" href="index.php">
 				<img class="logo logo-light" src="assets/images/logo/logo.png" alt="Hyperspace Logo"> 
 			</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,7 +55,7 @@
 				<ul class="navbar-nav ml-auto">
 				<!-- Home Menu-->
 <li class=" ">
-    <a href="./index.html"  class=" menu-item">Home</a>
+    <a href="./index.php"  class=" menu-item">Home</a>
 </li>
 <!-- li end -->
 
@@ -137,7 +137,7 @@
 						     <a href="#">Investment tips</a> 
 						</div>
 						<div class="entry--title">
-							<h4><a href="blog-single.html">Four ways to cheer yourself up on Blue Monday!</a></h4>
+							<h4><a href="blog-single.php">Four ways to cheer yourself up on Blue Monday!</a></h4>
 						</div>
 						<div class="entry--date">
 								Apr 15, 2018
@@ -168,7 +168,7 @@
 						     <a href="#">Consulting</a> 
 						</div>
 						<div class="entry--title">
-							<h4><a href="blog-single.html">In the news: this week’s top money stories</a></h4>
+							<h4><a href="blog-single.php">In the news: this week’s top money stories</a></h4>
 						</div>
 						<div class="entry--date">
 								Apr 12, 2018
@@ -199,7 +199,7 @@
 						     <a href="#">Financial</a> 
 						</div>
 						<div class="entry--title">
-							<h4><a href="blog-single.html">How does your household spend compare to the UK?</a></h4>
+							<h4><a href="blog-single.php">How does your household spend compare to the UK?</a></h4>
 						</div>
 						<div class="entry--date">
 								Apr 12, 2018
@@ -230,7 +230,7 @@
 						     <a href="#">Consulting</a> 
 						</div>
 						<div class="entry--title">
-							<h4><a href="blog-single.html">Are you losing underestimating your bills?</a></h4>
+							<h4><a href="blog-single.php">Are you losing underestimating your bills?</a></h4>
 						</div>
 						<div class="entry--date">
 								Apr 10, 2018
@@ -261,7 +261,7 @@
 						     <a href="#">Consulting</a> 
 						</div>
 						<div class="entry--title">
-							<h4><a href="blog-single.html">The hidden habits that cost you money?</a></h4>
+							<h4><a href="blog-single.php">The hidden habits that cost you money?</a></h4>
 						</div>
 						<div class="entry--date">
 								Apr 9, 2018
@@ -292,7 +292,7 @@
 						     <a href="#">Consulting</a> 
 						</div>
 						<div class="entry--title">
-							<h4><a href="blog-single.html">Have you still got your paper tax disc?</a></h4>
+							<h4><a href="blog-single.php">Have you still got your paper tax disc?</a></h4>
 						</div>
 						<div class="entry--date">
 								Apr 7, 2018
@@ -323,7 +323,7 @@
 						     <a href="#">Investment tips</a> 
 						</div>
 						<div class="entry--title">
-							<h4><a href="blog-single.html">Four ways to cheer yourself up on Blue Monday!</a></h4>
+							<h4><a href="blog-single.php">Four ways to cheer yourself up on Blue Monday!</a></h4>
 						</div>
 						<div class="entry--date">
 								Apr 14, 2018
@@ -354,7 +354,7 @@
 						     <a href="#">Consulting</a> 
 						</div>
 						<div class="entry--title">
-							<h4><a href="blog-single.html">In the news: this week’s top money stories</a></h4>
+							<h4><a href="blog-single.php">In the news: this week’s top money stories</a></h4>
 						</div>
 						<div class="entry--date">
 								Apr 12, 2018
@@ -385,7 +385,7 @@
 						     <a href="#">Financial</a> 
 						</div>
 						<div class="entry--title">
-							<h4><a href="blog-single.html">How does your household spend compare to the UK?</a></h4>
+							<h4><a href="blog-single.php">How does your household spend compare to the UK?</a></h4>
 						</div>
 						<div class="entry--date">
 								Apr 12, 2018
@@ -461,8 +461,8 @@
 					</div>
 					<div class="widget-content">
 						<ul>
-							<li><a href="./about.html">About Us</a></li>
-							<li><a href="./meet-the-team.html">Meet Our Team</a></li>
+							<li><a href="./about.php">About Us</a></li>
+							<li><a href="./meet-the-team.php">Meet Our Team</a></li>
 							<li><a href="#">Latest News</a></li>
 							<li><a href="" data-toggle="modal" data-target="#modalPush">Contact Us</i></li>
 						</ul>

@@ -41,7 +41,7 @@
 <header id="navbar-spy" class="header header-1 header-transparent">
 	<nav id="primary-menu" class="navbar navbar-expand-lg navbar-light navbar-bordered">
 		<div class="container">
-			<a class="navbar-brand" href="index.html">
+			<a class="navbar-brand" href="index.php">
 				<img class="logo logo-light" src="assets/images/logo/logo.png" alt="Hyperspace Logo"> 
 			</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -103,7 +103,7 @@
                     </div>
                     <div class="clearfix"></div>
                     <ol class="breadcrumb d-flex justify-content-center">
-                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                         <li class="breadcrumb-item active" aria-current="page">Our Team</li>
                     </ol>
                 </div><!-- .title end -->
@@ -355,8 +355,8 @@
 					</div>
 					<div class="widget-content">
 						<ul>
-							<li><a href="./about.html">About Us</a></li>
-                            <li><a href="./meet-the-team.html">Meet Our Team</a></li>
+							<li><a href="./about.php">About Us</a></li>
+                            <li><a href="./meet-the-team.php">Meet Our Team</a></li>
                             <li><a href="#">Latest News</a></li>
                             <li><a href="" data-toggle="modal" data-target="#modalPush">Contact Us</i></li>
 						</ul>
