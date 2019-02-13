@@ -544,7 +544,7 @@
       </div>
 
       <!--Body-->
-      <form class="mb-0">
+      <form class="mb-0" id="Modal">
                         <div class="row">
                             <div class="col">
                                 <input type="text" class="form-control" name="contact-name" id="contact-name" placeholder="Name" required="">
@@ -585,9 +585,9 @@
 <script type="text/javascript">
     
 
-    $('#exampleModal').on('show.bs.modal', function (event) {
+    $('#Modal').on('show.bs.modal', function (event) {
   var button = $(event.relatedTarget) // Button that triggered the modal
-  var recipient = button.data('whatever') 
+  var recipient = button.data('teec3000@gmail.com') 
   var modal = $(this)
   modal.find('.modal-title').text('New message to ' + recipient)
   modal.find('.modal-body input').val(recipient)
