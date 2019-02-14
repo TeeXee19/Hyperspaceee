@@ -129,13 +129,11 @@
                     </div><!-- .member-img end -->
                     <div class="member-info">
                         <h5>Ifunanya Ikemma</h5>
-                        <h6>C.E.O</h6>
+                        <h6></h6>
                         <div class="member-social">
-                               <a href="#"><i class="fa fa-facebook"></i></a>
+                               <a href="https://www.linkedin.com/in/ifunanya-ikemma-75698490" target="_blank"><i class="fa fa-linkedin"></i></a>
                                 <a href="https://twitter.com/iphytech"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-github"></i></a>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
-                            </div>
+                             </div>
                     </div><!-- .member-info end -->
                 </div><!-- .member end -->
             </div><!-- .col-md-4 end -->
@@ -151,11 +149,9 @@
                         <h5>Tochukwu Franklin Ene</h5>
                         <h6>Web Developer</h6>
                         <div class="member-social">
-                               <a href="#"><i class="fa fa-facebook"></i></a>
+                               <a href="https://www.linkedin.com/in/tochukwu-franklin-ene" target="_blank"><i class="fa fa-linkedin"></i></a>
                                 <a href="https://twitter.com/TochukwuFE"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-github"></i></a>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
-                            </div>
+                             </div>
                     </div><!-- .member-info end -->
                 </div><!-- .member end -->
             </div><!-- .col-md-3 end -->
@@ -171,10 +167,9 @@
                         <h5>Kosisochukwu Nzeako</h5>
                         <h6>Head Of Logistics</h6>
                         <div class="member-social">
-                               <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-github"></i></a>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
+                               <a href="https://www.linkedin.com/in/nzeakokosi7" target="_blank"><i class="fa fa-linkedin"></i></a>
+                                <a href="https://twitter.com/nzeakokosi7"><i class="fa fa-twitter"></i></a>
+                     
                             </div>
                     </div><!-- .member-info end -->
                 </div><!-- .member end -->
@@ -191,10 +186,9 @@
                         <h5>Eugene Ebere</h5>
                         <h6>Design Lead</h6>
                         <div class="member-social">
-                               <a href="#"><i class="fa fa-facebook"></i></a>
+                               <a href="https://www.linkedin.com/in/eugene-ebere-3a588715b" target="_blank"><i class="fa fa-linkedin"></i></a>
                                 <a href="https://twitter.com/_Figmate"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-github"></i></a>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
+                     
                             </div>
                     </div><!-- .member-info end -->
                 </div><!-- .member end -->
@@ -211,10 +205,9 @@
                         <h5>Okechukwu Nwagba</h5>
                         <h6>Program Manager</h6>
                         <div class="member-social">
-                               <a href="#"><i class="fa fa-facebook"></i></a>
+                               <a href="https://www.linkedin.com/in/okechukwu-nwagba-1b2782143" target="_blank"><i class="fa fa-linkedin"></i></a>
                                 <a href="https://twitter.com/enigma_i_am"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-github"></i></a>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
+                     
                             </div>
                     </div><!-- .member-info end -->
                 </div><!-- .member end -->
@@ -231,10 +224,9 @@
                         <h5>Victor Alagwu</h5>
                         <h6>Program Manager</h6>
                         <div class="member-social">
-                               <a href="#"><i class="fa fa-facebook"></i></a>
+                               <a href="https://www.linkedin.com/in/victoralagwu" target="_blank"><i class="fa fa-linkedin"></i></a>
                                 <a href="https://twitter.com/I_JV_Learner"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-github"></i></a>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
+                     
                             </div>
                     </div><!-- .member-info end -->
                 </div><!-- .member end -->
@@ -251,10 +243,9 @@
                         <h5>Ugochukwu Godson Njoku</h5>
                         <h6>Content Developer</h6>
                         <div class="member-social">
-                               <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="https://twitter.com/I_JV_Learner"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-github"></i></a>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
+                               <a href="https://www.linkedin.com/in/ugochukwu-godson-njoku" target="_blank"><i class="fa fa-linkedin"></i></a>
+                                <a href="https://twitter.com/Sage_Godspeed"><i class="fa fa-twitter"></i></a>
+                     
                             </div>
                     </div><!-- .member-info end -->
                 </div><!-- .member end -->
@@ -271,10 +262,9 @@
                         <h5>Danielle Obilor</h5>
                         <h6>Social Media Manager</h6>
                         <div class="member-social">
-                               <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-github"></i></a>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
+                               <a href="https://www.linkedin.com/in/danielle-obilor-b36676166" target="_blank"><i class="fa fa-linkedin"></i></a>
+                                <a href="https://twitter.com/danielle_uju"><i class="fa fa-twitter"></i></a>
+                     
                             </div>
                     </div><!-- .member-info end -->
                 </div><!-- .member end -->
@@ -291,10 +281,28 @@
                         <h5>Vitalis Ogbonna</h5>
                         <h6>Web Developer</h6>
                         <div class="member-social">
-                               <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-github"></i></a>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
+                               <a href="https://www.linkedin.com/in/vitalis-ogbonna-a57251110" target="_blank"><i class="fa fa-linkedin"></i></a>
+                                <a href="https://twitter.com/agavitalis"><i class="fa fa-twitter"></i></a>
+                     
+                            </div>
+                    </div><!-- .member-info end -->
+                </div><!-- .member end -->
+            </div><!-- .col-md-4 end -->
+
+             <!-- Member #10 -->
+            <div class="col-xs-12 col-sm-4 col-md-4">
+                <div class="member">
+                    <div class="member-img">
+                        <img class="img-fluid rounded-circle mb-3" src="https://lh3.googleusercontent.com/hEO-lcFACv2jQQB9yBPTQlUTWjFRg4uD4QrXJADl8O9MvsRZc3UDSll25KH3psKTybX54qi2nQdiE8L1k_zKIEdKOUdNPN0eGI2UuEpvg6RkINoUAexBSijH7JiveaKqWHjiro4X3zxAIjJxSrAOTUL0hx9Vb1SeHFP_3rPGfk0fy1WkUml614l50xpDcsL7lwQNfhV4NMPFnkZefxSuLMiaX_DeGWvD5gTkQfNMc1Xt5v4kaaHItDHdcD7C7H5pG9J5_wL_uggbMX2x9eqIerKFbnnNt4OUngUmtb_Y7jb4N_UaACoJHDFER59HMZjtQUnd_HNGm27MTj6INQlwlO3husAh9nfp-sLpiwRhrhqIfIq7NHA9xlIdeEm3JNr5HCitZFrfmYtkBgYHs81Cp5c-4RbVHUJ3LknJ0Kqsdjq-g8rjbvY0zZvsuEVctSVPNOZIi73Jozzaasl23iFbe7DnAllD0cFPz9XuzAYa8TMdxhV7RosXqipGbB8JG2M6cNCNtjpVojvirYyoEx1ov4ehEAfwt4AUYg1tK866ugcAJ3_w6mrwSA0pHelhidguujircJRvcr5GgDjxJt32sQsfHOzIIliSSGE6-hu8GCEZDorDMixmbfgwVIpp59K050qVogOOkVqs1qyIuJuhpYr-pUFS8kvj=s664-no" alt="member">
+                       
+                    </div><!-- .member-img end -->
+                    <div class="member-info">
+                        <h5>Amarachi Attah</h5>
+                        <h6></h6>
+                        <div class="member-social">
+                               <a href="https://www.linkedin.com/in/attah-favour-937287123" target="_blank"><i class="fa fa-linkedin"></i></a>
+                                <a href="https://twitter.com/AmarachiAttah"><i class="fa fa-twitter"></i></a>
+                     
                             </div>
                     </div><!-- .member-info end -->
                 </div><!-- .member end -->
@@ -337,7 +345,7 @@
 				<div class="col-12 col-md-6 col-lg-3 footer--widget widget-about">
 					<div class="widget-content">
 						<img class="footer-logo" src="assets/images/logo/logo.png" alt="logo">
-						<p>Grooming students into experts, ready to challenge the ever growing tech-sphere. Finding talents around Africa and making them stars. </p>
+						<p  style="color: #969696">Grooming students into experts, ready to challenge the ever growing tech-sphere. Finding talents around Africa and making them stars. </p>
 						<div class="social-icons">
 							<a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
 							<a href="https://twitter.com/HyperspaceAfric" class="twitter"><i class="fa fa-twitter"></i></a>
@@ -382,7 +390,7 @@
 									<div class="widget-content">
 										<ul>
 											<li><a href="#">Become an Organiser</a></li>
-											<li><a href="#">FAQs</a></li>
+											<li><a href="./faq.html">FAQs</a></li>
 										</ul>
 									</div>
 								</div><!-- .col-md-4 end -->
@@ -398,7 +406,7 @@
 						</form>
 						<div class="subscribe-alert"></div>
 						<div class="clearfix"></div>
-						<p>Get the latest updates and offers.</p>
+						<p style="color: #969696">Get the latest updates and offers.</p>
  					</div>
 				</div><!-- .col-md-3 end -->
 				<div class="clearfix"></div>
