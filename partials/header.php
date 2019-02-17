@@ -14,7 +14,7 @@
                         <ul class="navbar-nav ml-auto">
                             <!-- Home Menu-->
                             <li class=" active">
-                                <a href="#" class=" menu-item">Home</a>
+                                <a href=".index.php" class=" menu-item">Home</a>
                             </li>
                             <!-- li end -->
 
@@ -25,7 +25,7 @@
                             <!-- li end -->
                             <!-- Hackathons Menu-->
                             <li class="">
-                                <a href="#" class=" menu-item">Hackathons</a>
+                                <a href="./hackathon.php" class=" menu-item">Hackathons</a>
 
                             </li>
                             <!-- li end -->
@@ -38,7 +38,7 @@
                             <div class="module-container">
                                 <!-- Module Attend  -->
                                 <div class="module module-consultation pull-left">
-                                    <a class="btn" href="#">Attend</a>
+                                    <a class="btn" href="./hackathon.php">Attend</a>
                                 </div>
 
 
