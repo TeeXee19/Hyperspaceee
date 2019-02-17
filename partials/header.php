@@ -14,7 +14,7 @@
                         <ul class="navbar-nav ml-auto">
                             <!-- Home Menu-->
                             <li class=" active">
-                                <a href=".index.php" class=" menu-item">Home</a>
+                                <a href="./index.php" class=" menu-item">Home</a>
                             </li>
                             <!-- li end -->
 

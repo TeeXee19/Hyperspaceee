@@ -129,7 +129,7 @@
                     </div><!-- .member-img end -->
                     <div class="member-info">
                         <h5>Ifunanya Ikemma</h5>
-                        <h6></h6>
+                        <h6>Commissioner</h6>
                         <div class="member-social">
                                <a href="https://www.linkedin.com/in/ifunanya-ikemma-75698490" target="_blank"><i class="fa fa-linkedin"></i></a>
                                 <a href="https://twitter.com/iphytech"><i class="fa fa-twitter"></i></a>
@@ -222,7 +222,7 @@
                     </div><!-- .member-img end -->
                     <div class="member-info">
                         <h5>Victor Alagwu</h5>
-                        <h6>Program Manager</h6>
+                        <h6>Technical/Curriculum Developer</h6>
                         <div class="member-social">
                                <a href="https://www.linkedin.com/in/victoralagwu" target="_blank"><i class="fa fa-linkedin"></i></a>
                                 <a href="https://twitter.com/I_JV_Learner"><i class="fa fa-twitter"></i></a>
@@ -279,7 +279,7 @@
                     </div><!-- .member-img end -->
                     <div class="member-info">
                         <h5>Vitalis Ogbonna</h5>
-                        <h6>Web Developer</h6>
+                        <h6>Technical/Curriculum Developer</h6>
                         <div class="member-social">
                                <a href="https://www.linkedin.com/in/vitalis-ogbonna-a57251110" target="_blank"><i class="fa fa-linkedin"></i></a>
                                 <a href="https://twitter.com/agavitalis"><i class="fa fa-twitter"></i></a>
@@ -298,7 +298,26 @@
                     </div><!-- .member-img end -->
                     <div class="member-info">
                         <h5>Amarachi Attah</h5>
-                        <h6></h6>
+                        <h6>Accountant</h6>
+                        <div class="member-social">
+                               <a href="https://www.linkedin.com/in/attah-favour-937287123" target="_blank"><i class="fa fa-linkedin"></i></a>
+                                <a href="https://twitter.com/AmarachiAttah"><i class="fa fa-twitter"></i></a>
+                     
+                            </div>
+                    </div><!-- .member-info end -->
+                </div><!-- .member end -->
+            </div><!-- .col-md-4 end -->
+
+             <!-- Member #11 -->
+            <div class="col-xs-12 col-sm-4 col-md-4">
+                <div class="member">
+                    <div class="member-img">
+                        <img class="img-fluid rounded-circle mb-3" src="https://lh3.googleusercontent.com/IarpktdpnICr7eUlBuL5R7tmJGEEa3T5vR_MnpADeW4beVWNsS1fGxYq3OjxP7eXD7xHoiqlVf2XS_XY2mGXLOedYqLMtqx9CL9VLlxD8znEAm-0KrMxogZpHJ2KOzWLoZUsaWqr_KhJ1qszRH2mCOJcGz3o_uxu729YrowURwvcp0YqYDTdRpPwpXI17jtSdHzZskbQJiwaxZSaYWVgN5Tgkdk8j8rWC2h-RwhVifBBYogthCZfeUOBx4JpXnYWfJI1mzZrydqkh8nCT5o9ezt2xEeKiDtjKWtD1iEvSO7M9ADh6kXv19VrtE9M49rZc5xiZTl6sZne78UPjlBBcX9xr34zDOKpI3HHufso_I01HWuP6PkXkH6SaA76RVVHaF6J95dPn6ktD1tFFybyh4D57sPTYFvk7GkoUQFNJgxZ1pHA48Q4-LP5DbW30GTTzJZWfx26ERP1sbNmUadnKUkvGIsbZehP2gGWXM8reqdwt-GH1Msk6e45e9IZRj8WWLGFoAUOs0UkIFPZoimdV5BwiqGQkSHLDhY4wHPmyAYgWY7-CfJTL6oZk6OD4DxwyiFjluifTY1A7Eoi3CwmzEDVgPCUG-kPOsQDSbyFK0JfQlPZ_iMe85bFLIv6kMyzABPUrRZqv3wQtTvvRB9EEcT0SpdWoitUgww2u4XOXBSPNTrztCe-aNc9n33fwCpypoL2W-n6xRFwSWQAjx7p9WWQGA=s167-no" alt="member">
+                       
+                    </div><!-- .member-img end -->
+                    <div class="member-info">
+                        <h5>Nwokike Judith</h5>
+                        <h6>Web Developer</h6>
                         <div class="member-social">
                                <a href="https://www.linkedin.com/in/attah-favour-937287123" target="_blank"><i class="fa fa-linkedin"></i></a>
                                 <a href="https://twitter.com/AmarachiAttah"><i class="fa fa-twitter"></i></a>
