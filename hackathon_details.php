@@ -1,3 +1,7 @@
+<?php
+    include_once("controllers/hackathonDetailController.php");
+
+?>
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US">
 
@@ -31,7 +35,7 @@
 
     <!-- Document Title
     ============================================= -->
-    <title>Consultivo | Consulting Business Consulting Finance Html5 Template</title>
+    <title>Hyperspace</title>
 </head>
 
 <body>
@@ -55,13 +59,20 @@
                 <div class="row">
                     <div class="col-sm-12 col-md-12 col-lg-8 offset-lg-2">
                         <div class="title  text-center">
+                            <?php
+                            while($hackathon = $heading->fetch_assoc()) {
+                            ?>
                             <div class="title--heading">
-                                <h1>Our Blog</h1>
+                                <h1><?php echo $hackathon['name']  ?></h1>
                             </div>
+                            <?php 
+                            }
+                            ?>
+                            
                             <div class="clearfix"></div>
                             <ol class="breadcrumb d-flex justify-content-center">
                                 <li class="breadcrumb-item"><a href="index-2.html">Home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">blog</li>
+                                <li class="breadcrumb-item active" aria-current="page">hackathon</li>
                             </ol>
                         </div><!-- .title end -->
                     </div><!-- .col-md-12 end -->
@@ -74,60 +85,38 @@
         <section id="blog" class="blog blog-single blog-standard">
             <div class="container">
                 <div class="row">
+                   
+                    
                     <div class="col-sm-12 col-md-12 col-lg-8">
+                        <?php
+                         while($hackathon = $details->fetch_assoc()) {
+                        ?>
                         <!-- Blog Entry -->
                         <div class="blog-entry">
                             <div class="entry--img">
                                 <a href="#">
-                                    <img src="assets/images/blog/standard/1.jpg" alt="entry image" />
+                                    <img src="assets/uploads/ <?php echo $hackathon['image']  ?>" alt="featured image" />
                                 </a>
                             </div>
                             <div class="entry--content clearfix">
                                 <div class="entry--meta">
-                                    <a href="#">Investment tips</a>
+                                    <a href="#">Application Starts</a>
                                 </div>
                                 <div class="entry--date">
-                                    Apr 15, 2018
+                                    <?php echo $hackathon['start_date']  ?>
+                                </div>
+                                ....
+                                <div class="entry--meta">
+                                    <a href="#">Application Ends</a>
+                                </div>
+                                <div class="entry--date">
+                                    <?php echo strftime($hackathon['end_date']) ?>
                                 </div>
                                 <div class="entry--title">
-                                    <h4><a href="#">Four ways to cheer yourself up on Blue Monday!</a></h4>
+                                    <h4><a href="#"><?php echo $hackathon['name']  ?></a></h4>
                                 </div>
                                 <div class="entry--bio">
-                                    <p>The third Monday of January is supposed to be the most depressing day of the
-                                        year. Whether you believe that or not, the long nights, cold weather and trying
-                                        to keep to new year resolutions are all probably getting to you a little by now.
-                                        To make matters worse many will still be recovering from their Christmas
-                                        spending</p>
-                                    <p>So how can you make today – and the rest of January – a little better for you and
-                                        your wallet? Well, if times are tight, a little extra in your pocket should make
-                                        the month more bearable. Here are four easy ways to do just that.</p>
-                                    <p>You can make some quick cash by switching your bank account to one with a bonus.
-                                        Some banks are giving away £150 for moving your custom, while others offer
-                                        cashback or high interest. Of course it’s worth checking you won’t lose out in
-                                        other ways such as high overdraft fees. If you’re likely to go into the red you
-                                        might be better off switching to a bank with lower fees or even a small interest
-                                        free overdraft.</p>
-                                    <p>What’s up in the loft? Or under the bed? If you aren’t sure it probably means you
-                                        don’t need it – and that’s a sign you should try to sell it. If there’s the
-                                        potential for it to be rare or part of a collection it’s worth seeking
-                                        specialist advice. Otherwise head to a boot fair or list it online. Just don’t
-                                        forget to factor in costs such as postage or fees. The are more tips in our
-                                        step-by-step guide to selling online below. Just click through the slides.</p>
-                                    <p>Did you decide to stop smoking this year? Or was it drinking for a month?
-                                        Whatever your resolution don’t just think about the health benefits as it could
-                                        also be helping your bank balance. The average smoker lights up 12 cigarettes a
-                                        day, adding up to nearly £150 in January. Having five less pints of beer or
-                                        glasses of wine each week could easily save you £100 this month.</p>
-                                    <p>The sales are still on, and with the temperatures dropping there’s probably the
-                                        temptation to kit yourself out in a new jumper or winter coat. Well if you’ve
-                                        got some old woollies down the back of the wardrobe, there’s a good chance your
-                                        friends do too. Getting a group of you together to swap clothes means you’re
-                                        getting a new look for free, adding some extra pounds to your purse to save or
-                                        spend elsewhere.</p>
-                                    <p>You can make some quick cash by switching your bank account to one with a bonus.
-                                        Some banks are giving away £150 for moving your custom, while others offer
-                                        cashback or high interest. Of course it’s worth checking you won’t lose out in
-                                        other ways such as high overdraft fees. If you’re likely to go into</p>
+                                    <p><?php echo $hackathon['description']  ?></p>
                                 </div>
                                 <div class="entry--share">
                                     <span class="share--title">Share:</span>
@@ -138,15 +127,15 @@
                                 </div>
                                 <!-- .entry-share end -->
                                 <div class="entry--tags">
-                                    <a href="#">Responsive</a>
-                                    <a href="#">Modern</a>
-                                    <a href="#">Corporate</a>
-                                    <a href="#">Business</a>
+                                    <a href="#"><?php echo $hackathon['tags']  ?></a>
                                 </div>
                                 <!-- .entry-cat end -->
                             </div>
                         </div>
                         <!-- .blog-entry end -->
+                        <?php
+                        }
+                        ?>
 
                         <div class="entry-prev-next clearfix">
                             <div class="entry-prev">
@@ -188,86 +177,10 @@
                         </div>
                         <!-- .entry-bio end -->
 
-                        <div class="entry-widget entry-comments clearfix">
-                            <div class="entry-widget-title">
-                                <h4><span class="comments--number">2</span> comments</h4>
-                            </div>
-                            <div class="entry-widget-content">
-                                <ul class="comments-list">
-                                    <li class="comment-body">
-                                        <div class="avatar">
-                                            <img src="assets/images/team/thumb/2.jpg" alt="avatar" />
-                                        </div>
-                                        <div class="comment">
-                                            <h6>Mohamed Habaza</h6>
-                                            <div class="date">Feb 28, 2017 - 08:07 pm</div>
-                                            <p>he example about the mattress sizing page you mentioned in the last WBF
-                                                can be a perfect example of new keywords and content, and broadening the
-                                                funnel as well. I can only imagine the sale numbers if that was the site
-                                                of a mattress selling company.</p>
-                                            <a class="reply" href="#">reply</a>
-                                        </div>
-
-                                        <ul class="comment-children">
-                                            <li class="comment-body">
-                                                <div class="avatar">
-                                                    <img src="assets/images/team/thumb/3.jpg" alt="avatar" />
-                                                </div>
-                                                <div class="comment">
-                                                    <h6>Ahmed Hassan</h6>
-                                                    <div class="date">Feb 28, 2017 - 08:22 pm</div>
-                                                    <p>The example about the mattress sizing page you mentioned in the
-                                                        last WBF can be a perfect example of new keywords and content,
-                                                        and broadening the funnel as well. I can only imagine the sale
-                                                        numbers if that was the site.</p>
-                                                    <a class="reply" href="#">reply</a>
-                                                </div>
-                                            </li>
-                                            <!-- comment end -->
-                                        </ul>
-                                        <!-- .comment-children end -->
-                                    </li>
-                                    <!-- comment end -->
-
-                                </ul>
-                                <!-- .comments-list end -->
-                            </div>
-                        </div>
-                        <!-- .entry-comments end -->
-
-                        <div class="entry-widget entry-add-comment mb-0 clearfix">
-                            <div class="entry-widget-title">
-                                <h4>Leave A Reply</h4>
-                            </div>
-                            <div class="entry-widget-content">
-                                <form id="post-comment" class="mb-0">
-                                    <div class="row">
-                                        <div class="col-sm-12 col-md-6  col-lg-4">
-                                            <input type="text" class="form-control" id="first-name"
-                                                placeholder="Name" />
-                                        </div>
-                                        <div class="col-sm-12 col-md-6 col-lg-4">
-                                            <input type="email" class="form-control" id="email" placeholder="Email" />
-                                        </div>
-                                        <div class="col-sm-12 col-md-6 col-lg-4">
-                                            <input type="text" class="form-control" id="website"
-                                                placeholder="website" />
-                                        </div>
-                                        <div class="col-sm-12 col-md-6 col-lg-12">
-                                            <textarea class="form-control" id="comment" rows="2"
-                                                placeholder="Comment"></textarea>
-                                        </div>
-                                        <div class="col-sm-12 col-md-12 col-lg-12">
-                                            <button type="submit"
-                                                class="btn btn--gradient btn--lg text-capitalize">Submit
-                                                Comment</button>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                        <!-- .entry-comments end -->
+                       
                     </div><!-- .col-lg-8 end -->
+                   
+                    
                     <div class="col-sm-12 col-md-12 col-lg-4">
                         <!-- Search
 ============================================= -->

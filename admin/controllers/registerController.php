@@ -31,7 +31,7 @@
 
         if ($conn->query($sql) === TRUE) {
             
-            $_SESSION["username"] = $email;
+            $_SESSION["user_email"] = $email;
             header("Location:../dashboard.php");
            
         } else {

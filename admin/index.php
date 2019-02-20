@@ -42,7 +42,7 @@
     <div class="container">
         <div class="login-screen row align-items-center">
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                <form action="http://bootstrap.gallery/unify-admin/design-9/index.html">
+                <form action="controllers/loginController.php" method="post">
                     <div class="login-container">
                         <div class="row no-gutters">
                             <div class="col-xl-4 col-lg-5 col-md-6 col-sm-12">
@@ -53,34 +53,34 @@
                                     <div class="input-group">
                                         <span class="input-group-addon" id="username"><i
                                                 class="icon-account_circle"></i></span>
-                                        <input type="text" class="form-control" placeholder="Username"
+                                        <input type="email" class="form-control" name="username" placeholder="Email Address"
                                             aria-label="username" aria-describedby="username">
                                     </div>
                                     <br>
                                     <div class="input-group">
                                         <span class="input-group-addon" id="password"><i
                                                 class="icon-verified_user"></i></span>
-                                        <input type="password" class="form-control" placeholder="Password"
+                                        <input type="password" class="form-control" name="password" placeholder="Password"
                                             aria-label="Password" aria-describedby="password">
                                     </div>
                                     <?php
-											if( $_SESSION["registration_error"] != null)
-											{
-											?>
-                                    <br />
-                                    <div class="alert alert-info">
-                                        <p class="text-center">
-                                            <?php
-																echo($_SESSION["login_error"]);
-															?>
-                                        </p>
-                                    </div>
+                                    if( $_SESSION["login_error"] != null)
+                                    {
+                                    ?>
+                                        <br />
+                                        <div class="alert alert-info">
+                                            <p class="text-center">
+                                                <?php
+                                                    echo($_SESSION["login_error"]);
+                                                ?>
+                                            </p>
+                                        </div>
                                     <?php
-											}
-										?>
+                                        }
+                                    ?>
                                     <div class="actions clearfix">
                                         <a href="forgot-pwd.html">Lost password?</a>
-                                        <button type="submit" class="btn btn-primary">Login</button>
+                                        <button type="submit" name="login" class="btn btn-primary">Login</button>
                                     </div>
                                     <div class="or"></div>
                                     <div class="mt-4">
@@ -104,6 +104,5 @@
         </div>
     </footer>
 </body>
-
 
 </html>

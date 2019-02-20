@@ -27,8 +27,29 @@
 
     if(isset($_POST["h_register"])){
 
-        $sql = "INSERT INTO hackathons (`name`, `start_date`, `end_date`, `tags`, `description`) 
-        VALUES ('$h_name', '$h_date_b', '$h_date_e', '$h_tag','$h_description')";
+        if(isset($_FILES['image'])){
+
+            $errors= array();
+            $file_name = $_FILES['image']['name'];
+            $file_size =$_FILES['image']['size'];
+            $file_tmp =$_FILES['image']['tmp_name'];
+            $file_type=$_FILES['image']['type'];
+           
+            
+            if($file_size > 2097152){
+               $errors[]='File size must be excately 2 MB';
+            }
+            
+            if(empty($errors)==true){
+               move_uploaded_file($file_tmp,"../../assets/uploads/".$file_name);
+              
+            }else{
+                header("Location:../add_hackathon.php");
+            }
+        }
+
+        $sql = "INSERT INTO hackathons (`name`, `start_date`, `end_date`, `tags`, `description`,`image`) 
+        VALUES ('$h_name', '$h_date_b', '$h_date_e', '$h_tag','$h_description','$file_name')";
 
         if ($conn->query($sql) === TRUE) {
             

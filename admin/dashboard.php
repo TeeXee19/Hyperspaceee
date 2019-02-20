@@ -1,3 +1,6 @@
+<?php
+	include_once("controllers/dashboardController.php");
+?>
 <!doctype html>
 <html lang="en">
 	
@@ -81,7 +84,7 @@
 								<li class="dropdown">
 									<a href="#" id="userSettings" class="user-settings" data-toggle="dropdown" aria-haspopup="true">
 										<img class="avatar" src="img/user.png" alt="User Thumb" />
-										<span class="user-name">Emily Russell</span>
+										<span class="user-name"><?php echo  $user["lastname"] .''. $user["firstname"] ?></span>
 										<i class="icon-chevron-small-down"></i>
 									</a>
 									<div class="dropdown-menu lg dropdown-menu-right" aria-labelledby="userSettings">
@@ -124,7 +127,7 @@
 						<!-- BEGIN .user-profile -->
 						<div class="user-profile">
 							<img src="img/user.png" class="profile-thumb" alt="User Thumb">
-							<h6 class="profile-name">Yuki Hayashi</h6>
+							<h6 class="profile-name"><?php echo  $user["firstname"] ?></h6>
 							<ul class="profile-actions">
 								<li>
 									<a href="#">
@@ -342,7 +345,7 @@
 												</div>
 											</div>
 											<div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
-												<h6 class="card-title mt-0">Sales</h6>
+												<h6 class="card-title mt-0">Engagements</h6>
 												<div class="chartist custom-two">
 													<div class="line-chart2"></div>
 												</div>

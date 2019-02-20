@@ -1,12 +1,15 @@
 <?php
 
-    //include connection here
-    include_once('../config/connection.php');
     //include session here
     include_once('../config/session.php');
 
+    //include connection here
+    include_once('../config/connection.php');
+    
+
+
     // define variables and set to empty values
-    $email = $password  = "";
+    $username = $password  = "";
     function validate_input($data) {
         $data = trim($data);
         $data = stripslashes($data);
@@ -16,7 +19,7 @@
 
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-        $email = validate_input($_POST["email"]);
+        $email = validate_input($_POST["username"]);
         $password = md5(md5(validate_input($_POST["password"])));
     
     }
@@ -29,7 +32,8 @@
 
         if ($result->num_rows > 0) {
             // redirect to homepage
-            $_SESSION["username"] = $email;
+            
+            $_SESSION["user_email"] = $email;
             header("Location:../dashboard.php");
             
         } 

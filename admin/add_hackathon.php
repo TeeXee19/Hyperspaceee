@@ -227,7 +227,7 @@
 						<div class="row gutters">
 							
 							<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-								<form action="controllers/hackathonController.php" method="post">
+								<form action="controllers/hackathonController.php" method="post"  enctype="multipart/form-data">
 									<div class="card">
 										<div class="card-header">Register a New Hackathon</div>
 										<div class="card-body">
@@ -275,7 +275,17 @@
 												<?php
 												}
 											?>
-											<button type="submit" name="h_register" class="btn btn-primary">Register Hackathon</button>
+											<div class="mt-2 row gutters">
+												<div class="col col-md-8">
+														<label for="exOne">Featured Image</label>
+														<input type="file" class="form-control" name="image" accept=".png, .jpg, .jpeg" required>
+												</div>
+												<div class="col col-md-4 ">
+													<label for="exOne"> .</label>
+													<button type="submit" name="h_register" class="btn btn-primary btn-block">Register Hackathon</button>
+												</div>
+											</div>
+											
 										</div>
 									</div>
 								</form>

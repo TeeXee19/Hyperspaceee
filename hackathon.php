@@ -1,3 +1,7 @@
+<?php
+    include_once("controllers/hackathonController.php");
+
+?>
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US">
 
@@ -75,107 +79,51 @@
         <section id="blog" class="blog blog-grid">
             <div class="container">
                 <div class="row">
-                    <!-- Blog Entry #1 -->
-                    <div class="col-sm-12 col-md-6 col-lg-4">
-                        <div class="blog-entry">
-                            <div class="entry--img">
-                                <a href="#">
-                                    <img src="assets/images/blog/grid/1.jpg" alt="entry image" />
-                                    <div class="entry--overlay"></div>
-                                </a>
-                            </div><!-- .entry-img end -->
-                            <div class="entry--content">
-                                <div class="entry--meta">
-                                    <a href="#">Investment tips</a>
+
+                    <?php
+                        while($hackathons = $results->fetch_assoc()) {
+                    ?>
+                        <!-- Blog Entry #1 -->
+                        <div class="col-sm-12 col-md-6 col-lg-4">
+                            <div class="blog-entry">
+                                <div class="entry--img">
+                                    <a href="#">
+                                        <img src="assets/uploads/ <?php echo $hackathons['image']  ?>" alt="entry image" />
+                                        <div class="entry--overlay"></div>
+                                    </a>
+                                </div><!-- .entry-img end -->
+                                <div class="entry--content">
+                                    <div class="entry--meta">
+                                        <a href="#"><?php echo $hackathons['tags']  ?></a>
+                                    </div>
+                                    <div class="entry--title">
+                                        <h4><a href="hackathon_details.php?id= <?php echo $hackathons["id"]; ?>"> <?php echo $hackathons["name"]; ?> </a>
+                                        </h4>
+                                    </div>
+                                    <div class="entry--date">
+                                       <?php echo $hackathons["start_date"]; ?>
+                                    </div>
+                                    <div class="entry--bio">
+                                        <p> 
+                                           <?php 
+                                           $detail = $hackathons["description"];
+                                           echo substr($detail,0,200); ?> ...
+                                        </p>
+                                    </div>
+                                    <div class="entry--more">
+                                        <a href="hackathon_details.php?id= <?php echo $hackathons["id"]; ?>"><i class="fa fa-plus"></i>Read More</a>
+                                    </div>
                                 </div>
-                                <div class="entry--title">
-                                    <h4><a href="blog-single.php">Four ways to cheer yourself up on Blue Monday!</a>
-                                    </h4>
-                                </div>
-                                <div class="entry--date">
-                                    Apr 15, 2018
-                                </div>
-                                <div class="entry--bio">
-                                    <p> The third Monday of January is supposed to be most depressing day of the year.
-                                        Whether you believe that or not, the long nights, cold weather and trying to...
-                                    </p>
-                                </div>
-                                <div class="entry--more">
-                                    <a href="#"><i class="fa fa-plus"></i>Read More</a>
-                                </div>
+                                <!-- .entry-content end -->
                             </div>
-                            <!-- .entry-content end -->
+                            <!-- .blog-entry end -->
                         </div>
-                        <!-- .blog-entry end -->
-                    </div>
-                    <!-- .col-lg-4 end -->
-                    <!-- Blog Entry #2 -->
-                    <div class="col-sm-12 col-md-6 col-lg-4">
-                        <div class="blog-entry">
-                            <div class="entry--img">
-                                <a href="#">
-                                    <img src="assets/images/blog/grid/2.jpg" alt="entry image" />
-                                    <div class="entry--overlay"></div>
-                                </a>
-                            </div><!-- .entry-img end -->
-                            <div class="entry--content">
-                                <div class="entry--meta">
-                                    <a href="#">Consulting</a>
-                                </div>
-                                <div class="entry--title">
-                                    <h4><a href="blog-single.php">In the news: this week’s top money stories</a></h4>
-                                </div>
-                                <div class="entry--date">
-                                    Apr 12, 2018
-                                </div>
-                                <div class="entry--bio">
-                                    <p>The weather has taken a turn for the worse and January pay day still seems far
-                                        away. But you don’t have to venture outdoors or spend any money today sit back,
-                                        relax... </p>
-                                </div>
-                                <div class="entry--more">
-                                    <a href="#"><i class="fa fa-plus"></i>Read More</a>
-                                </div>
-                            </div>
-                            <!-- .entry-content end -->
-                        </div>
-                        <!-- .blog-entry end -->
-                    </div>
-                    <!-- .col-lg-4 end -->
-                    <!-- Blog Entry #3 -->
-                    <div class="col-sm-12 col-md-6 col-lg-4">
-                        <div class="blog-entry">
-                            <div class="entry--img">
-                                <a href="#">
-                                    <img src="assets/images/blog/grid/3.jpg" alt="entry image" />
-                                    <div class="entry--overlay"></div>
-                                </a>
-                            </div><!-- .entry-img end -->
-                            <div class="entry--content">
-                                <div class="entry--meta">
-                                    <a href="#">Financial</a>
-                                </div>
-                                <div class="entry--title">
-                                    <h4><a href="blog-single.php">How does your household spend compare to the UK?</a>
-                                    </h4>
-                                </div>
-                                <div class="entry--date">
-                                    Apr 12, 2018
-                                </div>
-                                <div class="entry--bio">
-                                    <p>The ‘cost of living’ is a phrase that’s rarely out of the news, and our wallets
-                                        and bills appear to back up the claims that our household spending is on the
-                                        rise... </p>
-                                </div>
-                                <div class="entry--more">
-                                    <a href="hackathon_details.php"><i class="fa fa-plus"></i>Read More</a>
-                                </div>
-                            </div>
-                            <!-- .entry-content end -->
-                        </div>
-                        <!-- .blog-entry end -->
-                    </div>
-                    <!-- .col-lg-4 end -->
+                        <!-- .col-lg-4 end -->
+                    <?php
+                        }
+                    ?>
+                    
+                    
 
                 </div>
                 <!-- .row end -->

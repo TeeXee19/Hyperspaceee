@@ -31,7 +31,7 @@
                             <!-- li end -->
                             <!-- Resources Menu-->
                             <li class="">
-                                <a href="#" class=" menu-item">Resources</a>
+                                <a href="http://curriculum.hyperspace.africa/" class=" menu-item">Resources</a>
 
                             </li>
                             <!-- li end -->
