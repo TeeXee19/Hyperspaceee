@@ -1,5 +1,3 @@
-<!doctype html>
-<html lang="en">
 <?php
 	include_once("config/session.php");
 
@@ -9,7 +7,8 @@
 
 	}
 ?>
-	
+<!doctype html>
+<html lang="en">	
 <head>
 		<!-- Required meta tags -->
 		<meta charset="utf-8">
@@ -227,7 +226,7 @@
 						<div class="row gutters">
 							
 							<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-								<form action="controllers/hackathonController.php" method="post"  enctype="multipart/form-data">
+								<form action="controllers/addHackathonController.php" method="post"  enctype="multipart/form-data">
 									<div class="card">
 										<div class="card-header">Register a New Hackathon</div>
 										<div class="card-body">

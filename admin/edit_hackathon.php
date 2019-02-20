@@ -1,20 +1,20 @@
 <?php
-	include_once("controllers/manageHackathonController.php");
+	include_once("controllers/editHackathonController.php");
 ?>
 <!doctype html>
-<html lang="en">
-    <head>
+<html lang="en">	
+<head>
 		<!-- Required meta tags -->
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-		<meta name="description" content="Unify Admin Panel" />
-		<meta name="keywords" content="Admin, Datatables, Dashboard, Bootstrap4, Sass, CSS3, HTML5, Responsive Dashboard, Responsive Admin Template, Admin Template, Best Admin Template, Bootstrap Template, Themeforest" />
-		<meta name="author" content="Bootstrap Gallery" />
+		<meta name="description" content="Hyperspace Admin Panel" />
+		<meta name="keywords" content="" />
+		<meta name="author" content="Hyperspace Gallery" />
 		<link rel="shortcut icon" href="img/favicon.ico" />
-		<title>Unify Admin Dashboard - Datatables</title>
-
+		<title>Hyperspace Admin Dashboard</title>
+		
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
 		
 		<!-- Common CSS -->
@@ -22,12 +22,26 @@
 		<link rel="stylesheet" href="fonts/icomoon/icomoon.css" />
 		<link rel="stylesheet" href="css/main.css" />
 
-		<!-- Data Tables -->
-		<link rel="stylesheet" href="vendor/datatables/dataTables.bs4.css" />
-		<link rel="stylesheet" href="vendor/datatables/dataTables.bs4-custom.css" />
+		<!-- Other CSS includes plugins - Cleanedup unnecessary CSS -->
+		<!-- Chartist css -->
+		<link href="vendor/chartist/css/chartist.min.css" rel="stylesheet" />
+		<link href="vendor/chartist/css/chartist-custom.css" rel="stylesheet" />
 
 	</head>
 	<body>
+
+		<!-- Loading starts -->
+		<div class="loading-wrapper">
+			<div class="loading">
+				<div class="img"></div>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+		<!-- Loading ends -->
 
 		<!-- BEGIN .app-wrap -->
 		<div class="app-wrap">
@@ -35,16 +49,14 @@
 			<header class="app-header">
 				<div class="container-fluid">
 					<div class="row gutters">
-						<div class="col-xl-5 col-lg-5 col-md-5 col-sm-3 col-4">
-							<a class="mini-nav-btn" href="#" id="app-side-mini-toggler">
+						<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-8">
+							<a class="mini-nav-btn float-left" href="#" id="app-side-mini-toggler">
+								<i class="icon-sort"></i>
+							</a>
+							<a href="#app-side" data-toggle="onoffcanvas" class="onoffcanvas-toggler float-left" aria-expanded="true">
 								<i class="icon-chevron-thin-left"></i>
 							</a>
-							<a href="#app-side" data-toggle="onoffcanvas" class="onoffcanvas-toggler" aria-expanded="true">
-								<i class="icon-chevron-thin-left"></i>
-							</a>
-						</div>
-						<div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 col-4">
-							<a href="index-2.html" class="logo">
+							<a href="index-2.html" class="logo float-left ml-4">
 								<img src="img/unify.png" alt="Unify Admin Dashboard" />
 							</a>
 						</div>
@@ -57,64 +69,17 @@
 									</a>
 									<div class="dropdown-menu dropdown-menu-right lg" aria-labelledby="notifications">
 										<ul class="imp-notify">
-											<li>
-												<div class="icon">W</div>
-												<div class="details">
-													<p><span>Wilson</span> The best Dashboard design I have seen ever.</p>
-												</div>
-											</li>
-											<li>
-												<div class="icon">J</div>
-												<div class="details">
-													<p><span>John Smith</span> Jhonny sent you a message. Read now!</p>
-												</div>
-											</li>
+											
 											<li>
 												<div class="icon secondary">R</div>
 												<div class="details">
-													<p><span>Justin Mezzell</span> Stella, Added you as a Friend. Accept it!</p>
+													<p><span>No Messages</span></p>
 												</div>
 											</li>
 										</ul>
 									</div>
 								</li>
-								<li>
-									<a href="#" id="todos" data-toggle="dropdown" aria-haspopup="true">
-										<i class="icon-person_outline"></i>
-										<span class="count-label red"></span>
-									</a>
-									<div class="dropdown-menu dropdown-menu-right lg" aria-labelledby="todos">
-										<ul class="stats-widget">
-											<li>
-												<h4>$37895</h4>
-												<p>Revenue <span>+2%</span></p>
-												<div class="progress">
-													<div class="progress-bar" role="progressbar" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100" style="width: 87%">
-														<span class="sr-only">87% Complete (success)</span>
-													</div>
-												</div>
-											</li>
-											<li>
-												<h4>4,897</h4>
-												<p>Downloads <span>+39%</span></p>
-												<div class="progress">
-													<div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%">
-														<span class="sr-only">65% Complete (success)</span>
-													</div>
-												</div>
-											</li>
-											<li>
-												<h4>2,219</h4>
-												<p>Uploads <span class="text-secondary">-7%</span></p>
-												<div class="progress">
-													<div class="progress-bar bg-danger" role="progressbar" aria-valuenow="42" aria-valuemin="0" aria-valuemax="100" style="width: 42%">
-														<span class="sr-only">42% Complete (success)</span>
-													</div>
-												</div>
-											</li>
-										</ul>
-									</div>
-								</li>
+								
 								<li class="dropdown">
 									<a href="#" id="userSettings" class="user-settings" data-toggle="dropdown" aria-haspopup="true">
 										<img class="avatar" src="img/user.png" alt="User Thumb" />
@@ -139,14 +104,7 @@
 													<p>Settings</p>
 												</a>
 											</li>
-											<li>
-												<a href="filters.html">
-													<div class="icon yellow">
-														<i class="icon-schedule"></i>
-													</div>
-													<p>Activity</p>
-												</a>
-											</li>
+											
 										</ul>
 										<div class="logout-btn">
 											<a href="login.html" class="btn btn-primary">Logout</a>
@@ -240,8 +198,8 @@
 										<i class="icon-laptop_windows"></i>
 									</div>
 									<div class="page-title">
-										<h5>Mamage Hackathons</h5>
-										<h6 class="sub-heading">Manage Registered Hackathons </h6>
+										<h5>Edit Hackathon</h5>
+										<h6 class="sub-heading">Edit a Hackathon </h6>
 									</div>
 								</div>
 								<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
@@ -256,42 +214,80 @@
 					</header>
 					<!-- END: .main-heading -->
 					<!-- BEGIN .main-content -->
-					<div class="main-content">
-						
+					<div class="main-content">				
 						<!-- Row start -->
+						
 						<div class="row gutters">
+							
 							<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-								<div class="card">
-									<div class="card-header">Row Selection</div>
-									<div class="card-body">
-										<table id="rowSelection" class="table table-striped table-bordered">
-											<thead>
-												<tr>
-												  <th>Title</th>
-												  <th>Edit</th>
-												  <th>Delete</th>
-												</tr>
-											</thead>
-											<tbody>
+								<form action="" method="post"  enctype="multipart/form-data">
+									<div class="card">
+										<div class="card-header">Edit this registered Hackathon</div>
+										<div class="card-body">
+											<div class="row gutters">
+												<div class="col col-md-8">
+													<label for="exOne">Hackathon Name</label>
+													<input type="text" class="form-control" required name="h_name" placeholder="Hackathon  Name" value="<?php echo $hackathon['name']; ?>">
+												</div>
+												<div class="col">
+													<label for="exOne">Technology Tags</label>
+													<input type="text" class="form-control" required name="h_tag" placeholder="Tags: Eg Java(Seperate tags with comma)"  value="<?php echo $hackathon['tags']; ?>">
+												</div>
+												
+											</div>
+											<div class="mt-2 row gutters">
+												<div class="col">
+													<label for="exOne">Registration Time Line(Start Date)</label>
+													<input type="date" class="form-control" required name="h_date_b" placeholder="Start Date"  value="<?php echo $hackathon['start_date']; ?>">
+												</div>
+												<div class="col">
+													<label for="exOne">Registration Time Line (End Date)</label>
+													<input type="date" class="form-control" required name="h_date_e" placeholder="End Date"  value="<?php echo $hackathon['end_date']; ?>">
+												</div>
+												
+											</div>
+											<div class="mt-2 row gutters">
+												<div class="col">
+														<label for="textarea">Hackathon Description</label>
+														<textarea class="form-control" id="textarea" name="h_description" rows="10"><?php echo $hackathon['name']; ?></textarea>
+												</div>
+											</div>
+											<hr>
 											<?php
-													while($hackathons = $results->fetch_assoc()) {
+												if( $_SESSION["hackathon_message"] != null)
+												{
+												?>
+												<br />
+												<div class="alert alert-info">
+													<p class="text-center">
+														<?php
+															echo($_SESSION["hackathon_message"]);
+														?>
+													</p>
+												</div>
+												<?php
+												}
 											?>
-												<tr>
-												  <td><?php echo $hackathons['name']; ?></td>
-												  <td><a href="edit_hackathon.php?id= <?php echo $hackathons["id"]; ?>" class="btn btn-warning">Edit</a></td>
-												  <td><a href="controllers/delete_hackathon.php?id= <?php echo $hackathons["id"]; ?>"  class="btn btn-danger">Delete</a></td>
-												</tr>
-											<?php
-													}
-											?>
-											</tbody>
-							    	</table>
+											<div class="mt-2 row gutters">
+												<div class="col col-md-8">
+                                                        <label for="exOne">Featured Image</label>
+                                                        <img src="./assets/uploads/ <?php echo $hackathon['name']; ?>" width="50px" height="50px">
+														<input type="file" class="form-control" name="image" accept=".png, .jpg, .jpeg" required>
+												</div>
+												<div class="col col-md-4 ">
+													<label for="exOne"> .</label>
+													<button type="submit" name="h_edit" class="btn btn-warning btn-block">Save Edited</button>
+												</div>
+											</div>
+											
+										</div>
 									</div>
-								</div>
+								</form>
 							</div>
-						</div>
-						<!-- Row ends -->
 
+                        </div>
+					
+						<!-- Row end -->					
 					</div>
 					<!-- END: .main-content -->
 				</div>
@@ -300,7 +296,7 @@
 			<!-- END: .app-container -->
 			<!-- BEGIN .main-footer -->
 			<footer class="main-footer fixed-btm">
-				Copyright Hyperspace 2019.
+				Copyright Hyperspace Admin 2019.
 			</footer>
 			<!-- END: .main-footer -->
 		</div>
@@ -314,16 +310,20 @@
 		<script src="vendor/onoffcanvas/onoffcanvas.js"></script>
 		<script src="js/moment.js"></script>
 
-		<!-- Data Tables -->
-		<script src="vendor/datatables/dataTables.min.js"></script>
-		<script src="vendor/datatables/dataTables.bootstrap.min.js"></script>
+		<!-- Slimscroll JS -->
+		<script src="vendor/slimscroll/slimscroll.min.js"></script>
+		<script src="vendor/slimscroll/custom-scrollbar.js"></script>
+
+		<!-- Chartist JS -->
+		<script src="vendor/chartist/js/chartist.min.js"></script>
+		<script src="vendor/chartist/js/chartist-tooltip.js"></script>
+		<script src="vendor/chartist/js/custom/custom-line-chart.js"></script>
+		<script src="vendor/chartist/js/custom/custom-line-chart1.js"></script>
 		
-		<!-- Custom Data tables -->
-		<script src="vendor/datatables/custom/custom-datatables.js"></script>
-		<script src="vendor/datatables/custom/fixedHeader.js"></script>
 
 		<!-- Common JS -->
 		<script src="js/common.js"></script>
-
+		
 	</body>
+
 </html>
