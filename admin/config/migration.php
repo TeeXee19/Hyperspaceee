@@ -38,4 +38,23 @@
             echo "Migration error : " . $conn->error;
         }
 
+    $events_table = "CREATE TABLE IF NOT EXISTS events  (
+        `id` INT(10) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+        `name` VARCHAR(150) NOT NULL,
+        `start_date` DATE NOT NULL,
+        `end_date` DATE NOT NULL,
+        `tags` TEXT,
+        `description` TEXT,
+        `created_at` DATETIME DEFAULT CURRENT_TIMESTAMP,
+        `image` VARCHAR(160) NOT NULL
+        
+        )";
+        
+        if ($conn->query($hackathons_table) === TRUE) {
+            echo "Table events successful created ";
+        }
+        else{
+            echo "Migration error : " . $conn->error;
+        }
+    
     

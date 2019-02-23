@@ -381,11 +381,13 @@
     <section id="cta1" class="cta cta-1 bg-theme">
         <div class="container">
             <div class="row">
-                <div class="col-sm-8 col-md-9 col-lg-10">
-                    <h3>Looking to become a part of this awesome movement? Become a sponsor</h3>
-
+                <div class="col-sm-8 col-md-9 col-lg-8">
+                    <h3>Looking to become a part of this awesome movement? </h3>
                 </div>
                 <!-- .col-lg-10 -->
+                <div class="col-sm-2 col-md-3 col-lg-2 text-right">
+                    <a href="#" class="btn btn--white btn--bordered btn--rounded">Donate</a>
+                </div>
                 <div class="col-sm-2 col-md-3 col-lg-2 text-right">
                     <a href="#" class="btn btn--white btn--bordered btn--rounded">Sponsor</a>
                 </div>
@@ -419,28 +421,28 @@
             <div class="modal-content contact-box text-center">
                 <!--Header-->
                 <div class="modal-header d-flex justify-content-center">
-                    <h3>Want to Build Something?</h3>
+                    <h3>Have a message for us?</h3>
                 </div>
 
                 <!--Body-->
                 <form class="mb-0">
                     <div class="row">
                         <div class="col">
-                            <input type="text" class="form-control" name="contact-name" id="contact-name"
+                            <input type="text" class="form-control" name="contact_name" id="contact-name"
                                 placeholder="Name" required="">
                         </div>
                     </div>
                     <div class="row">
 
                         <div class="col">
-                            <input type="email" class="form-control" name="contact-email" id="contact-email"
+                            <input type="email" class="form-control" name="contact_email" id="contact-email"
                                 placeholder="Email">
                         </div>
                     </div>
                     <div class="row">
                         <div class="col">
-                            <textarea class="form-control" name="contact-message" id="contact-message" rows="2"
-                                placeholder="What do you want to build?"></textarea>
+                            <textarea class="form-control" name="contact_message" id="contact-message" rows="2"
+                                placeholder="Drop us a message"></textarea>
                         </div>
                     </div>
                     <div class="row">

@@ -26,7 +26,7 @@
 						<ul>
 							<li><a href="./about.php">About Us</a></li>
 							<li><a href="./meet-the-team.php">Meet Our Team</a></li>
-							<li><a href="#">Latest News</a></li>
+							<li><a href="./events.php">Events</a></li>
 							<li><a href="" data-toggle="modal" data-target="#modalPush">Contact Us</i></li>
 						</ul>
 					</div>
